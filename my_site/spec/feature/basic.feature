@@ -1,7 +1,7 @@
 Feature: Create homepage
-  As a visitor
-  In order to know what the site is about
-  I would like to be able to have a short intro
+  As the web creator
+  In order for people to know me and what I can do
+  I would like to show them a short intro
 
 Tasks:
 - Create homepage
@@ -12,9 +12,9 @@ Tasks:
 
 
 Feature: About Me page
-  As a visitor
-  In order to know more about the portfolio owner  
-  I would like to see an about page with information about him/her 
+  As the web creator
+  In order to convince potential clients to hire me    
+  I would like to give a list of languages I know and my education
 
 
 Tasks:
@@ -26,9 +26,9 @@ Tasks:
 - Add heading about 'education'
 
 Feature: My Projects page
-  As a visitor
-  In order to evaluate persons skills   
-  I would like to see their portfolio  
+  As the web creator
+  In order for potential employees to evaluate my skills   
+  I would like them to see my portfolio  
 
 
 Tasks:
@@ -45,9 +45,9 @@ Tasks:
 - Add project description 
 
 Feature: Contact me page
-  As a visitor
-  In order to contact persons    
-  I would like to see their contact information
+  As the web creator
+  In order for potential clients to contact me    
+  I would like them to see my contact information
 
 Tasks:
 - Create a contact page 
