@@ -12,12 +12,17 @@ describe 'Index Page', type: :feature do
           expect(page).to have_content 'Address Book'
         end
     end
-end
 
-    it 'renders navbar partial' do
-    expect(page).to have_selector 'navbar'
-    within 'navbar' do
-        expect(page).to have_content
+it 'displays navbar partial' do
+
+    visit "/"
+    expect(page).to have_css '.topnav'
+    within '.topnav' do
+        expect(page).to have_content 'Home'
+        expect(page).to have_content 'About'
+        expect(page).to have_content 'Projects'
+        expect(page).to have_content 'Contact'
     end
+end
 end
 
