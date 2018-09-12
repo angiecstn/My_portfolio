@@ -5,16 +5,15 @@ Feature: Create homepage
 
 Tasks:
 - Create homepage
-- Add intro sentence
 - Add background
-- Add follow me link
+- Add follow me sidebar 
 - Add button to link page to about me 
 
 
 Feature: About Me page
   As the web creator
   In order to convince potential clients to hire me    
-  I would like to give a list of languages I know and my education
+  I would like to give a list of languages I can code and my education
 
 
 Tasks:
