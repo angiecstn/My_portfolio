@@ -6,8 +6,7 @@ Feature: Create homepage
 Tasks:
 - Create homepage
 - Add background
-- Add follow me sidebar 
-- Add button to link page to about me 
+- Add button to other pages
 
 
 Feature: About Me page

@@ -1,11 +1,15 @@
 #navbar.topnav
   .dropdown
-    %button.dropbtn
-      Dropdown
-      %i.fa.fa-caret-down
-    .dropdown-content
-      %a{:href => "#"} Home
-      %a{:href => "#"} About
-      %a{:href => "#"} Projects
-      %a{:href => "#"} Contacts
-  %a.icon{:href => "javascript:void(0);", :onclick => "myFunction()"} ☰
+    %button{:onclick => "scrollToElementWithId(0)"} Home
+    %button{:onclick => "scrollToElementWithId(1)"} Projects
+    %button{:onclick => "scrollToElementWithId(2)"} About
+    %button{:onclick => "scrollToElementWithId(3)"} Contact
+  -#     Dropdown
+  -#     %i.fa.fa-caret-down
+  -#   .dropdown-content
+  -#     %a.home_b{:href => "#", :onclick => "testScrolling(\"wrapper-homepage\")"} Home
+  -#     %a.about_b{:href => "#", :onclick => "testScrolling(\"wrapper-about\")"} About
+  -#     %a.projects_b{:href => "#", :onclick => "testScrolling(\"wrapper-projects\")"} Projects
+  -#     %a.contacts_b{:href => "#", :onclick => "testScrolling(\"wrapper-contacts\")"} Contacts
+  -# %a.icon{:href => "javascript:void(0);", :onclick => "javascript:void(0);"} ☰
+
