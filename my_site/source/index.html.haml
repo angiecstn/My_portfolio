@@ -6,50 +6,50 @@
     .sidebar-left
         %p 
     .main 
-        %h1 Angelica 
-        %h1 Costantini
+        = partial 'partials/home'
     .footer
         %p Footer
 
 .wrapper-about{:id => "about"}
     .header
-        %p header
+        %p 
     .sidebar-right
         %p Sidebar-right
     .sidebar-left
         %p Sidebar-left 
     .main 
-        %p main
+        = partial 'partials/about'
     .footer
         %p Footer
 
 .wrapper-projects{:id => "projects"}
     .header
-        %p header
+        %p 
     .sidebar-right
         %p Sidebar-right
     .sidebar-left
         %p Sidebar-left 
     .main 
-        %p main
+        = partial 'partials/projects'
     .footer
         %p Footer
 
 .wrapper-contact{:id => "contact"}
     .header
-        %p header
+        %p 
     .sidebar-right
         %p Sidebar-right
     .sidebar-left
         %p Sidebar-left 
     .main 
-        %p main
+        = partial 'partials/contact'
     .footer
         %p Footer
 
-= partial 'partials/about'
-= partial 'partials/projects'
-= partial 'partials/contact'
+
+
+
+
 
 
 
