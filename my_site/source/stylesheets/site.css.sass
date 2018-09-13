@@ -3,6 +3,7 @@ body
   margin: 0
   color: black
   font-family: monospace
+  
 
 .wrapper-homepage 
   display: grid
@@ -28,7 +29,7 @@ body
   overflow: hidden
   border-right: .15em solid orange
   white-space: nowrap
-  margin: 0 auto
+  margin-top: 100px
   letter-spacing: .15em
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite
 
@@ -103,6 +104,7 @@ body
   grid-template-columns: 100px auto 100px
   grid-template-rows: 100px auto 70px
   min-height: 100vh
+  
 
 .header
   grid-column-start: 1
@@ -152,6 +154,7 @@ body
 .main
   grid-column: 1
   grid-row: 5
+  display: inline-flex
 
 .footer
   grid-column-start: 1
@@ -184,6 +187,7 @@ body
   grid-column-start: 2
   grid-column-end: 3
   grid-row: 2
+  text: center
 
 .footer
   grid-column-start: 1
@@ -217,13 +221,12 @@ body
   grid-column-start: 2
   grid-column-end: 3
   grid-row: 2
+  display: inline-flex
 
 .footer
   grid-column-start: 1
   grid-column-end: 4
   grid-row: 3
-
-
 
 .wrapper-projects 
   display: grid
@@ -246,6 +249,7 @@ body
 .main
   grid-column: 1
   grid-row: 5
+  text: center
 
 
 .footer
@@ -279,6 +283,7 @@ body
   grid-column-start: 2
   grid-column-end: 3
   grid-row: 2
+  display: inline-flex
 
 .footer
   grid-column-start: 1
@@ -312,6 +317,7 @@ body
   grid-column-start: 2
   grid-column-end: 3
   grid-row: 2
+  display: inline-flex
 
 .footer
   grid-column-start: 1
@@ -339,6 +345,7 @@ body
 .main
   grid-column: 1
   grid-row: 5
+  text: center
 
 
 .footer
@@ -372,6 +379,7 @@ body
   grid-column-start: 2
   grid-column-end: 3
   grid-row: 2
+  text: center
 
 .footer
   grid-column-start: 1
@@ -404,6 +412,7 @@ body
   grid-column-start: 2
   grid-column-end: 3
   grid-row: 2
+  display: inline-flex
 
 .footer
   grid-column-start: 1
@@ -451,14 +460,13 @@ body
     outline: none
     color: white
     padding: 14px 16px
-    background-color: inherit
-    font-family: inherit
+    font-family: monospace
     margin: 0
 
 .dropdown-content
   display: none
   position: absolute
-  background-color: #f9f9f9
+  background-color: #black
   min-width: 160px
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)
   z-index: 1
