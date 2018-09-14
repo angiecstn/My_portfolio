@@ -1,27 +1,29 @@
 .contact_grid
 
+  .contact_me
+  %h1 Contact Me
+  = mail_to('angelicacostantini07@gmail.com')
+  
   .social
     %h1 Follow Me
-    %a{href: "https://github.com/angiecstn ", :target => "_blank"}
-      %img.github(src="/images/github.png")
+    %a.link{href: "https://github.com/angiecstn ", :target => "_blank"}
+      %img.socialicon(src="/images/github.png")
       %br
       %br
-    %a{href: "https://www.linkedin.com/in/angelica-costantini-a627a0a4/",:target => "_blank"}
-      %img.linkedin(src="/images/linkedin.png")
+    %a.link{href: "https://www.linkedin.com/in/angelica-costantini-a627a0a4/",:target => "_blank"}
+      %img.socialicon(src="/images/linkedin.png")
       %br
       %br
-    %a{href: "https://www.instagram.com/angelica.costantini/", :target => "_blank" }
-      %img.instagram(src="/images/instagram.png")
+    %a.link{href: "https://www.instagram.com/angelica.costantini/", :target => "_blank" }
+      %img.socialicon(src="/images/instagram.png")
       %br
       %br
-    %a{href: "https://www.facebook.com/angelica.costantini.7", :target => "_blank"}
-      %img.facebook(src="/images/facebook.png")
+    %a.link{href: "https://www.facebook.com/angelica.costantini.7", :target => "_blank"}
+      %img.socialicon(src="/images/facebook.png")
       %br
       %br
   
-.contact_me
-  %h1 Contact Me
-  = mail_to('angelicacostantini07@gmail.com')
+
   
 
 

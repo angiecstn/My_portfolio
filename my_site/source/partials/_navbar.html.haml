@@ -1,10 +1,15 @@
 #navbar.topnav
   .dropdown
-    %button{:onclick => "scrollToElementWithId(0)"} Home
-    %button{:onclick => "scrollToElementWithId(1)"} About
-    %button{:onclick => "scrollToElementWithId(2)"} Projects
-    %button{:onclick => "scrollToElementWithId(3)"} Curriculum
-    %button{:onclick => "scrollToElementWithId(4)"} Contact
+    .button
+      %div{:onclick => "scrollToElementWithId(0)"} Home
+    .button
+      %div{:onclick => "scrollToElementWithId(1)"} About
+    .button
+      %div{:onclick => "scrollToElementWithId(2)"} Projects
+    .button
+      %div{:onclick => "scrollToElementWithId(3)"} Curriculum
+    .button
+      %div{:onclick => "scrollToElementWithId(4)"} Contact
 
 
 -# .wrapper-navbar
