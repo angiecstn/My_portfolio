@@ -2,6 +2,7 @@
   - data.projects.each do |project|
     %h4= project[:name]
     %p= project[:description]
-    = link_to project[:link], project[:type]
+    = link_to project[:name], "#{project[:link]}"
 
-    
+
+   
