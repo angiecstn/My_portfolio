@@ -21,6 +21,9 @@ function scrollToElementWithId(id) {
             name = "projects"
         break;
         case 3:
+            name = "curriculum"
+        break;
+        case 4:
             name = "contact"
         break;
         default:

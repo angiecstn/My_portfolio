@@ -1,0 +1,7 @@
+.curriculum
+  - data.curriculum.each do |curriculum|
+    %br
+    %h2= curriculum[:position]
+    %h4= curriculum[:where] 
+    %p= curriculum[:when]
+    %p= curriculum[:description]

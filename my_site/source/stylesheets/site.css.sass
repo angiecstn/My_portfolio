@@ -305,6 +305,100 @@ body
   grid-template-rows: 100px auto 70px
   min-height: 100vh
 
+.wrapper-curriculum 
+  display: grid
+  grid-template-columns: auto
+  grid-template-rows: 50px 75px auto 75px 35px
+  min-height: 100vh
+
+.header
+  grid-column: 1
+  grid-row: 1
+
+.sidebar-left
+  grid-column: 1
+  grid-row: 2
+
+.sidebar-right
+  grid-column: 1
+  grid-row: 4
+
+.main
+  grid-column: 1
+  grid-row: 5
+  display: inline-flex
+
+.footer
+  grid-column-start: 1
+  grid-column-end: 4
+  grid-row: 3
+
+@media screen and (min-width: 960px)
+.wrapper-curriculum
+  display: grid
+  grid-template-columns: 100px auto 
+  grid-template-rows: 50px auto 75px 35px
+  min-height: 100vh
+
+.header
+  grid-column-start: 1
+  grid-column-end: 3
+  grid-row: 1
+
+.sidebar-left
+  grid-column-start: 1
+  grid-column-end: 2
+  grid-row: 2
+
+.sidebar-right
+  grid-column-start: 1
+  grid-column-end: 3
+  grid-row: 3
+
+.main
+  grid-column-start: 2
+  grid-column-end: 3
+  grid-row: 2
+  text: center
+
+.footer
+  grid-column-start: 1
+  grid-column-end: 3
+  grid-row: 4
+
+@media screen and (min-width: 1240px)
+.wrapper-curriculum
+  display: grid
+  grid-template-columns: 100px auto 100px
+  grid-template-rows: 100px auto 70px
+  min-height: 100vh
+
+
+.header
+  grid-column-start: 1
+  grid-column-end: 4
+  grid-row: 1
+
+.sidebar-left
+  grid-column-start: 1
+  grid-column-end: 2
+  grid-row: 2
+
+.sidebar-right
+  grid-column-start: 3
+  grid-column-end: 4
+  grid-row: 2
+
+.main
+  grid-column-start: 2
+  grid-column-end: 3
+  grid-row: 2
+  display: inline-flex
+
+.footer
+  grid-column-start: 1
+  grid-column-end: 4
+  grid-row: 3
 
 .header
   grid-column-start: 1
