@@ -1,32 +1,31 @@
 .contact_grid
 
+  .social
+    %h1 Follow Me
+    %a{href: "https://github.com/angiecstn ", :target => "_blank"}
+      %img.github(src="/images/github.png")
+      %br
+      %br
+    %a{href: "https://www.linkedin.com/in/angelica-costantini-a627a0a4/",:target => "_blank"}
+      %img.linkedin(src="/images/linkedin.png")
+      %br
+      %br
+    %a{href: "https://www.instagram.com/angelica.costantini/", :target => "_blank" }
+      %img.instagram(src="/images/instagram.png")
+      %br
+      %br
+    %a{href: "https://www.facebook.com/angelica.costantini.7", :target => "_blank"}
+      %img.facebook(src="/images/facebook.png")
+      %br
+      %br
+  
 .contact_me
-  %h2 Contact Me
+  %h1 Contact Me
   .linecenter
   = mail_to('angelicacostantini07@gmail.com', "My Email")
 
-  .social
-    %h2 Follow Me
-    %a{href: "https://github.com/angiecstn " }
-      %img(src="/images/github.png")
-    %a{href: "https://www.linkedin.com/in/angelica-costantini-a627a0a4/" }
-      %img(src="/images/linkedin.png")
-    %a{href: "https://www.instagram.com/angelica.costantini/" }
-      %br
-      %img(src="/images/instagram.png")
-    %a{href: "https://www.facebook.com/angelica.costantini.7" }
-      %img(src="/images/facebook.png")
-      %br
-      %br
-      %br
 
 
- 
--# .contact
--#   %h2 Follow me  
--#   %br
--#   - data.contact.each do |contact|
--#     = link_to contact[:name], "#{contact[:URL]}"
-    
+
 
 
