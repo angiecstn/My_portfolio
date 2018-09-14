@@ -1,12 +1,32 @@
-.contact
-  %h2 Follow me here 
-  - data.contact.each do |contact|
-    = link_to contact[:name], "#{contact[:URL]}"
-
-%br
+.contact_grid
 
 .contact_me
   %h2 Contact Me
+  .linecenter
   = mail_to('angelicacostantini07@gmail.com', "My Email")
 
-  
+  .social
+    %h2 Follow Me
+    %a{href: "https://github.com/angiecstn " }
+      %img(src="/images/github.png")
+    %a{href: "https://www.linkedin.com/in/angelica-costantini-a627a0a4/" }
+      %img(src="/images/linkedin.png")
+    %a{href: "https://www.instagram.com/angelica.costantini/" }
+      %br
+      %img(src="/images/instagram.png")
+    %a{href: "https://www.facebook.com/angelica.costantini.7" }
+      %img(src="/images/facebook.png")
+      %br
+      %br
+      %br
+
+
+ 
+-# .contact
+-#   %h2 Follow me  
+-#   %br
+-#   - data.contact.each do |contact|
+-#     = link_to contact[:name], "#{contact[:URL]}"
+    
+
+
