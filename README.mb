@@ -1,0 +1,20 @@
+Personal Portfolio 
+Static webpage built with middleman 
+
+https://nervous-galileo-4bd60a.netlify.com/
+
+______________________________________
+Prerequisites
+- Middleman 
+
+______________________________________
+Built With:
+- Middleman : The web framework used
+- Javascript : Programming Language
+- Capybara and rspec: test
+- HAML and SASS
+
+_______________________________________
+Authors
+Angelica Costantini
+

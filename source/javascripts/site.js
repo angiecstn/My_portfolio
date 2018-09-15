@@ -33,12 +33,3 @@ function scrollToElementWithId(id) {
 
 }
 
-
-// function testScrolling(name) {
-//     console.log(name);
-//     console.log(window.innerHeight)
-//     window.scroll({
-//         top: window.innerHeight, 
-//         left: 0, 
-//         behavior: 'smooth' 
-//       });

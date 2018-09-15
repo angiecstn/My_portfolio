@@ -150,16 +150,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara
-  haml
-  middleman (~> 4.2)
-  middleman-autoprefixer (~> 2.7)
-  middleman-livereload (~> 3.4.3)
-  pry
-  pry-byebug
-  rspec
-  tzinfo-data
-  wdm (~> 0.1)
+  capybara!
+  haml!
+  middleman (~> 4.2)!
+  middleman-autoprefixer (~> 2.7)!
+  middleman-livereload (~> 3.4.3)!
+  pry!
+  pry-byebug!
+  rspec!
+  tzinfo-data!
+  wdm (~> 0.1)!
 
 BUNDLED WITH
    1.16.2
