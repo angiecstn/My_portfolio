@@ -6,6 +6,7 @@ require 'middleman-core/rack'
 require 'middleman-autoprefixer'
 require 'middleman-livereload'
 
+
 middleman_app = ::Middleman::Application.new
 
 Capybara.app = ::Middleman::Rack.new(middleman_app).to_app do
