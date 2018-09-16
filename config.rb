@@ -6,9 +6,9 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-activate :google_analytics do |ga|
-  ga.tracking_id = 'UA-125778850-1' # Replace with your property ID.
-end
+# activate :google_analytics do |ga|
+#   ga.tracking_id = 'UA-125778850-1' # Replace with your property ID.
+# end
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
