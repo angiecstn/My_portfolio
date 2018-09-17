@@ -1,11 +1,10 @@
 require 'rspec'
 require 'capybara/rspec'
-
+require 'middleman-google-analytics'
 require 'middleman-core'
 require 'middleman-core/rack'
 require 'middleman-autoprefixer'
 require 'middleman-livereload'
-
 
 middleman_app = ::Middleman::Application.new
 

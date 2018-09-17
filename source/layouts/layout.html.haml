@@ -8,11 +8,12 @@
     %title= current_page.data.title || "Angelica Costantini Portfolio"
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
-    -# = google_analytics_tag
+    
 
   %body
     =partial 'partials/navbar'
     =yield
+    = google_analytics_tag
   
    
    
