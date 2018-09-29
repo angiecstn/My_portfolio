@@ -10,6 +10,6 @@
   description: My first website written in JS with react interface
   link: https://acosta.herokuapp.com/ 
 
-- name: Address Book 
-  description: Simple address book in JS 
-  link: To Be Added
+- name: Rock Paper Scissors
+  description: Web-app game in JS 
+  link: https://rockpaperscissors-ac.netlify.com/
